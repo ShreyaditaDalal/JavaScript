@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function div(){
+            p =parseInt(f1.tb1.value)
+            r =parseInt(f1.tb2.value)
+            m=p/r
+            document.getElementById('tb3').value=m; 
+        }
+    </script>  
+    <title>Reward Points</title>
+</head>
+<body>
+    <p><b> Key: 100 points for each entry</b></p>
+    <form id="f1">
+        Enter total points<input type="text" id= "tb1"><br><br>
+        Enter no. of entries <input type="text" id= "tb2"><br><br> 
+
+        <button type="button" onclick="div()">Division</button><br><br>
+        Result<input type="text" id= "tb3"> 
+    </form>  
+</body>
+</html>
